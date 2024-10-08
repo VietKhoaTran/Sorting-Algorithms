@@ -68,7 +68,7 @@ var drawBars = function (low, high, index){
 
 var finish = async function(){
     for (let i =0; i<= barcount -1; i++){
-        await new Promise(resolve => setTimeout(resolve, 30));
+        await new Promise(resolve => setTimeout(resolve, 10));
         let bar = document.getElementById(`barnumber${i}`);
         bar.style.backgroundColor = "orange";
     }

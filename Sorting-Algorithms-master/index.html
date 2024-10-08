@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms</title>
+    <link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link rel="shortcut icon" href="cuteicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <nav>
+                <a href="index.html" class="hello"><img src="cuteicon.png" alt="Main page" style="height: 50px;"> SORTING ALGORITHM</a>
+                <ul id="link"></ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <div id = "graph">
+            </div>
+        </main>
+
+
+        <div class = "manager">
+            <div class="input">
+                <input type="number" id="numberofbar" name="numberofbar">
+                <button class = "button" id = "submit-bar-number">SUBMIT</button>
+            </div>
+
+            <div class="input">
+                <button class = "button" id = "randomize">Randomize</button>
+            </div>
+
+            <div class="input">
+                <select id="select-algorithm" >
+                    <option value="">Choosing Algorithm</option>
+                    <option value="bubblesort"> Bubble Sort </option>
+                    <option value="quicksort"> Quick Sort </option>
+                    <option value="insertionsort"> Insertion Sort </option>
+                    <option value="selectionsort"> Selection Sort </option>
+                    <option value="heapsort"> Heap Sort </option>
+                </select>
+                <button class = "button" id = "sortbutton">SORT</button>
+            </div>
+        </div>
+    </div>
+    <script src="Script/main.js"></script>
+</body>
+
+</html>
